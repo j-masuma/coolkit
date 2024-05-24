@@ -1,2 +1,2 @@
-# coolkit
+# my-recipe-app
 MAD Project
