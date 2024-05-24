@@ -32,7 +32,7 @@ class Meal {
     for (var measurementIndex = 1; true; measurementIndex++) {
       var measurement = json['strMeasure$measurementIndex'] as String?;
       if (measurement == null || measurement.isEmpty) {
-        // Break the loop if no more measurements are encountered
+        
         break;
       }
       strMeasurements.add(measurement);

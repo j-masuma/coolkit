@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 import '../models/category.dart';
 import '../models/meal.dart';
-import '../utils/custom_exception.dart';
+import '../utils/custom_exception.dart'; 
 
 class ApiService {
   static Future<List<Meal>> fetchAllMealsFromAPI() async {
